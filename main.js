@@ -96,8 +96,6 @@ let OldDeliveryBuyOrders =JSON.parse( fs.readFileSync(HoldingFilePath).toString(
     };
     countOfTodaysOrders = await getCountOfTodaysOrders();
 
-    countOfTodaysOrders = 7;
-
     //extract Today's Order details and store them
     if (countOfTodaysOrders > 0) {
 
